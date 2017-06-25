@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+
+    <h:head>
+	<!-- FIREBASE-->
+			
+				<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+				<script>
+				  // Initialize Firebase
+				  var config = {
+					apiKey: "AIzaSyDQYQ0mVppk73IyI0db76v3v_uCjglWyVE",
+					authDomain: "actitudejerciciosalud-16ced.firebaseapp.com",
+					databaseURL: "https://actitudejerciciosalud-16ced.firebaseio.com",
+					projectId: "actitudejerciciosalud-16ced",
+					storageBucket: "actitudejerciciosalud-16ced.appspot.com",
+					messagingSenderId: "616848565942"
+				  };
+				  firebase.initializeApp(config);
+				</script>
+
+		
+		<!---->
+
+        <title>AES(Actitud, Ejercicio, Salud)</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=dervice-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+      
+        <!--<link rel="stylesheet" href="../css/estilos.css"/>
+        <link rel="stylesheet" href="../css/menu.css"/>-->
+        <h:outputStylesheet library="css" name="estilos.css"/>
+        <h:outputStylesheet library="css" name="menu.css"/>
+        <h:outputStylesheet library="css" name="banner.css"/>
+        <h:outputStylesheet library="css" name="tablas.css"/>
+        
+        <link rel="STYLESHEET" href="resources/css/estilos.css"/>
+        <link rel="STYLESHEET" href="resources/css/menu.css"/>
+        <link rel="STYLESHEET" href="resources/css/banner.css"/>
+        <link rel="STYLESHEET" href="resources/css/tablas.css"/>
+    </h:head>
+
+    <h:body>
+	
+		
+        <div id="top">
+        <header>
+            <div class="conteneror">
+                <h1>     AES(Actitud, Ejercicio, Salud)    </h1>
+                <input type="checkbox" id="menu-bar"/>
+                <label class="material-icons" for="menu-bar"><img src="resources/img/format-align-justify.png"/></label>
+
+                <nav class="menu">
+                     
+                  
+                    
+                </nav>
+            </div>
+        </header>
+            
+        </div>
+
+        <div id="content" class="center_content">
+           
+                
+        <main>
+            <section id="banner">
+                <img src="resources/img/im1.jpg"/>
+                            
+            </section>
+
+            <section id="bienvenidos">
+                <h2>BIENVENIDOS</h2>
+                <p>
+                    La realización periódica de Actividades Físicas mejora notoriamente la salud, contando con beneficios que van desde el mejor 
+					funcionamiento del Sistema Cardiovascular como también a la prevención de enfermedades relativas a su contraparte, la Obesidad, Diabetes, 
+					problemas del corazón, etc.
+ 
+                    <br/><br/></br>
+                   AES ofrece la facilidad de ejercitarce desde casa, ayudado a mejorar la salud de nuestros usuarios.
+                    
+                </p>
+            </section>
+			
+			<section id="info">
+                <h3>CADA MAÑANA TIENES DOS OPCIONES:</br> SEGUIR SOÑANDO, O LEVANTARTE Y HACERLO REALIDAD</h3>
+
+                <div class="contenedor">
+                    <div class="info-xcaret">
+                         <img src="resources/img/deporte.jpg"/>
+                        
+                    </div>
+               
+                    
+                </div>
+            </section>
+
+            <section id="blog">
+               
+                <div class="contenedor">
+
+                    <article>
+                        <h2>Demuestra tu actitud</h2><br/><br/>
+                        
+                        <p class="img">
+                           
+
+							Una actitud positiva provoca una 
+							reacción en cadena de pensamientos, eventos y resultados. Es un catalizador y desata extraordinarios resultados
+						</p>
+                    </article>
+                    <article>
+                        <h2>  Activate haciendo ejercicio</h2><br/><br/>
+                        <p class="img">
+                          
+
+						Da siempre lo mejor de ti. Lo que siembres hoy dará su fruto mañana.
+                        </p>
+                    </article>
+                    <article>
+                        <h2>Mantente con buena salud</h2><br/><br/>
+                        <p class="img">
+                           
+
+						Mantener el cuerpo con buena salud es un deber, de lo contrario no seremos capaces de mantener nuestro cuerpo y mente fuertes y claros.
+                        </p>
+                    </article>
+                </div>
+
+            </section>
+
+     
+
+        </main>
+           
+        </div>
+
+        <div id="bottom">
+            
+                <footer>
+
+            <div class="contenedor">
+                <p class="copy">AES &copy;2017</p>
+                <div class="sociales">
+                    <a href="#"><img src="resources/img/facebook-box (1).png"/></a>
+                    <a href="#"><img src="resources/img/twitter-box.png"/></a>
+                    <a href="#"><img src="resources/img/google-plus-box.png"/></a>
+                    <br/>
+                    <a href="inicioSesion.html"><img src="resources/img/account-circle.png"/></a>
+
+                </div>
+
+            </div>
+        </footer>
+        <br />
+  
+        </div>
+
+    </h:body>
+   
+
+</html>
